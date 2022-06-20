@@ -45,4 +45,10 @@ public class Reporte {
         return ciclo;
     }
 
+    
+    @Override
+    public String toString() {
+        return nombre; //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

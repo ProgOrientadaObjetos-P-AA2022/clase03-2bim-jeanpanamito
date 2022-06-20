@@ -27,13 +27,15 @@ public class Ejecutor1 {
         for (int i = 0; i < listaDistancia.size(); i++) {
             listaDistancia.get(i).calcularMatriculaDistancia();
         }
-        
+       
         ReporteDistancia rd = new ReporteDistancia("Reporte Distancia", 
                 "Derecho", "Sexto");
         rd.establecerLista(listaDistancia);
         rd.establecerTotalMatriculasDistancia();
         
         System.out.println("----------------------");
+        //System.out.println(listaDistancia);
+        
         System.out.println(rd);
         
     }
