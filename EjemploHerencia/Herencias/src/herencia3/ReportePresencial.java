@@ -68,12 +68,14 @@ public class ReportePresencial extends Reporte{
         String cadena = String.format("%s\nCarrera: %s \n"
                 + "Ciclo: %s\n\n"
                 + "%s"
-                + "El total de matriculas es: %.2f\n",
+                + "El total de matriculas es: %.2f\n"
+                + "El promedio es : %.2f\n",
                 nombre,
                 carrera,
                 ciclo,
                 cadenaEstudiantes,
-                obtenerTotalMatriculasPresencial());
+                obtenerTotalMatriculasPresencial(),
+                obtenerPromedioGeneral());
         return cadena;
 
     }

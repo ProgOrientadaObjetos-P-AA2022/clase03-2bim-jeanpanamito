@@ -32,6 +32,7 @@ public class Ejecutor2 {
                 "Alimentos", "Segundo");
         rd.establecerLista(listaPresencial);
         rd.establecerTotalMatriculasPresencial();
+        rd.establecerPromedioGeneral();
         System.out.println("----------------------");
         System.out.println(rd);
 

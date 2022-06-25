@@ -47,17 +47,16 @@ public class Principal {
         re.establecerListaEstudiantes(listaEstudiantes);
         re.establecerPromedioMatriculas();
 
-      
         ReportePolicia rp = new ReportePolicia("0001Pol");
         rp.establecerListaPolicias(listaPolicias);
         rp.establecerPromedioEdades();
-        System.out.println("---------------------------------------------------");
+        System.out.println("-------------------------------------------------");
         System.out.println(rd);
-         System.out.println("---------------------------------------------------");
+        System.out.println("-------------------------------------------------");
         System.out.println(re);
-         System.out.println("---------------------------------------------------");
+        System.out.println("-------------------------------------------------");
         System.out.println(rp);
-         System.out.println("---------------------------------------------------");
+        System.out.println("-------------------------------------------------");
 
     }
 }
